@@ -31,7 +31,7 @@ class DoubleConv(nn.Module):
 
 class SolarUNet(nn.Module):
 
-    def __init__(self, num_classes=4):
+    def __init__(self, num_classes=5):
         super().__init__()
 
         # Encoder
